@@ -1,0 +1,28 @@
+{
+  "name": "conversion-blocks",
+  "version": "1.0.0",
+  "description": "Beautiful Gutenberg blocks that convert visitors into customers",
+  "scripts": {
+    "generate-icons": "node scripts/generate-heroicons.js",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "devDependencies": {
+    "@wordpress/icons": "^11.6.0",
+    "@wordpress/scripts": "^27.0.0",
+    "heroicons": "^2.2.0"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "blocks",
+    "pricing",
+    "conversion"
+  ],
+  "author": "LV2",
+  "license": "GPL-3.0-or-later"
+}

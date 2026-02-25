@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "conversion-blocks/button",
+	"version": "1.0.0",
+	"title": "Button",
+	"category": "conversion-blocks",
+	"icon": "button",
+	"description": "Call-to-action button with hover effects",
+	"keywords": ["button", "cta", "link", "call to action"],
+	"textdomain": "conversion-blocks",
+	"attributes": {
+		"text": {
+			"type": "string",
+			"default": "Click Me"
+		},
+		"url": {
+			"type": "string",
+			"default": ""
+		},
+		"openInNewTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"style": {
+			"type": "string",
+			"default": "primary"
+		},
+		"size": {
+			"type": "string",
+			"default": "medium"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "left"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": false,
+		"spacing": {
+			"margin": true,
+			"padding": false
+		},
+		"color": {
+			"background": true,
+			"text": true,
+			"gradients": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

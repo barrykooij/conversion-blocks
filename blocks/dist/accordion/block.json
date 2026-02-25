@@ -1,0 +1,55 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "conversion-blocks/accordion",
+	"version": "1.0.0",
+	"title": "Accordion / FAQ",
+	"category": "conversion-blocks",
+	"icon": "list-view",
+	"description": "Organize content in expandable accordion sections",
+	"keywords": ["accordion", "faq", "toggle", "collapsible"],
+	"textdomain": "conversion-blocks",
+	"attributes": {
+		"items": {
+			"type": "array",
+			"default": [
+				{
+					"question": "What is this?",
+					"answer": "This is an accordion block that lets you organize content in expandable sections."
+				},
+				{
+					"question": "How do I use it?",
+					"answer": "Click on any section to expand or collapse the content."
+				},
+				{
+					"question": "Can I customize it?",
+					"answer": "Yes! You can add, remove, and edit sections in the block editor."
+				}
+			]
+		},
+		"openFirst": {
+			"type": "boolean",
+			"default": false
+		},
+		"closeOthers": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": true,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"color": {
+			"background": true,
+			"text": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

@@ -1,0 +1,177 @@
+/**
+ * Editor Feature Grid Styles
+ */
+
+.wp-block-conversion-blocks-feature-grid {
+	padding: 1rem;
+	background: #f9fafb;
+	border-radius: 4px;
+}
+
+.conversion-blocks-feature-item {
+	position: relative;
+}
+
+.conversion-blocks-feature-item .conversion-blocks-remove-feature {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	z-index: 10;
+}
+
+.conversion-blocks-feature-item .conversion-blocks-feature-icon-wrapper {
+	margin-bottom: 0.5rem;
+}
+
+/* Icon picker toggle */
+.conversion-blocks-feature-icon-picker-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 64px;
+	height: 64px;
+	border: 1px dashed #cbd5e1;
+	border-radius: 8px;
+	background: transparent;
+	cursor: pointer;
+	transition: border-color 0.2s;
+	padding: 0;
+}
+
+.conversion-blocks-feature-icon-picker-toggle:hover {
+	border-color: #94a3b8;
+}
+
+.conversion-blocks-feature-grid .conversion-blocks-feature-icon-picker-toggle .conversion-blocks-feature-icon-svg {
+	width: 32px !important;
+	height: 32px !important;
+	color: #475569;
+}
+
+.wp-block-conversion-blocks-feature-grid.conversion-blocks-align-center .conversion-blocks-feature-icon-picker-dropdown {
+	display: flex;
+	justify-content: center;
+}
+
+/* Icon picker popover */
+.conversion-blocks-feature-icon-picker-popover {
+	padding: 0 !important;
+	width: 340px;
+}
+
+.conversion-blocks-feature-icon-picker-content {
+	width: 340px;
+	overflow: hidden;
+}
+
+.conversion-blocks-feature-icon-picker-header {
+	padding: 12px 12px 0;
+}
+
+.conversion-blocks-feature-icon-picker-header .components-search-control {
+	margin-bottom: 8px;
+}
+
+.conversion-blocks-feature-icon-source-switcher {
+	display: flex;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.conversion-blocks-feature-icon-source-switcher .components-button {
+	flex: 1;
+	justify-content: center;
+}
+
+/* Icon grid */
+.conversion-blocks-feature-icon-picker-grid {
+	display: grid;
+	grid-template-columns: repeat(8, minmax(0, 1fr));
+	gap: 2px;
+	padding: 8px 12px 12px;
+	max-height: 280px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.conversion-blocks-feature-icon-picker-empty {
+	grid-column: 1 / -1;
+	text-align: center;
+	color: #94a3b8;
+	padding: 1rem;
+	margin: 0;
+	font-size: 13px;
+}
+
+.conversion-blocks-feature-icon-picker-option {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	min-width: 36px;
+	border-radius: 6px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	padding: 6px;
+}
+
+.conversion-blocks-feature-icon-picker-option:hover {
+	background: #f1f5f9;
+}
+
+.conversion-blocks-feature-icon-picker-option.conversion-blocks-is-active {
+	background: #e2e8f0;
+}
+
+.conversion-blocks-feature-icon-picker-option .conversion-blocks-feature-icon-svg-small {
+	width: 20px;
+	height: 20px;
+	color: #475569;
+}
+
+.conversion-blocks-feature-item .conversion-blocks-feature-title {
+	margin-top: 0;
+}
+
+/* Toggle icon: custom image */
+.conversion-blocks-feature-icon-picker-toggle .conversion-blocks-feature-icon-img {
+	width: 32px;
+	height: 32px;
+	object-fit: contain;
+	border-radius: 4px;
+}
+
+/* Image tab */
+.conversion-blocks-feature-icon-picker-image-tab {
+	padding: 12px;
+	text-align: center;
+}
+
+.conversion-blocks-feature-icon-picker-image-preview {
+	margin-bottom: 12px;
+}
+
+.conversion-blocks-feature-icon-picker-image-preview img {
+	max-width: 100%;
+	max-height: 120px;
+	object-fit: contain;
+	border-radius: 4px;
+	border: 1px solid #e2e8f0;
+	margin-bottom: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.conversion-blocks-feature-icon-picker-image-upload {
+	width: 100%;
+	justify-content: center;
+}
+
+.conversion-blocks-feature-icon-picker-image-remove {
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 8px;
+}

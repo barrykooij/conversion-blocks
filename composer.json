@@ -1,0 +1,24 @@
+{
+  "name": "conversion-blocks/conversion-blocks",
+  "description": "Beautiful Gutenberg blocks that convert visitors into customers",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "LV2",
+      "email": "wpplugins@lv2.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ConversionBlocks\\": "src/"
+    }
+  },
+  "scripts": {
+    "build-zip": "bash scripts/build-zip.sh",
+    "make-pot": "wp i18n make-pot . languages/conversion-blocks.pot"
+  }
+}

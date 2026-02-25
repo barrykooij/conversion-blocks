@@ -1,0 +1,10 @@
+/**
+ * Conversion Blocks Frontend Block Styles
+ * 
+ * @package ConversionBlocks
+ */
+
+/* Frontend block styles will go here when blocks are built */
+.conversion-blocks-block {
+	margin: 20px 0;
+}

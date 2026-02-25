@@ -1,0 +1,39 @@
+/**
+ * Editor Accordion Styles
+ */
+
+.wp-block-conversion-blocks-accordion {
+	padding: 1rem;
+	background: #f9fafb;
+	border-radius: 4px;
+}
+
+.conversion-blocks-accordion-item {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background: #fff;
+	border: 1px solid #e2e8f0;
+	border-radius: 4px;
+}
+
+.conversion-blocks-accordion-item:last-child {
+	margin-bottom: 0;
+}
+
+.conversion-blocks-accordion-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.conversion-blocks-accordion-question {
+	flex-grow: 1;
+	font-weight: 600;
+}
+
+.conversion-blocks-accordion-content {
+	margin-top: 0.5rem;
+	padding-top: 0.5rem;
+	border-top: 1px solid #f1f5f9;
+}

@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "conversion-blocks/pricing-table",
+	"version": "1.0.0",
+	"title": "Pricing Table",
+	"category": "conversion-blocks",
+	"icon": "money-alt",
+	"description": "Beautiful pricing table with multiple pricing plans",
+	"keywords": ["pricing", "table", "plans", "price"],
+	"textdomain": "conversion-blocks",
+	"attributes": {
+		"plans": {
+			"type": "array",
+			"default": [
+				{
+					"name": "Starter",
+					"price": "$9",
+					"period": "/month",
+					"features": ["Up to 10 projects", "5GB storage", "Email support"],
+					"buttonText": "Get Started",
+					"buttonUrl": "",
+					"highlighted": false
+				},
+				{
+					"name": "Pro",
+					"price": "$29",
+					"period": "/month",
+					"features": ["Unlimited projects", "50GB storage", "Priority support", "Advanced features"],
+					"buttonText": "Get Started",
+					"buttonUrl": "",
+					"highlighted": true
+				},
+				{
+					"name": "Enterprise",
+					"price": "$99",
+					"period": "/month",
+					"features": ["Everything in Pro", "Unlimited storage", "24/7 support", "Custom integrations"],
+					"buttonText": "Contact Us",
+					"buttonUrl": "",
+					"highlighted": false
+				}
+			]
+		},
+		"columns": {
+			"type": "number",
+			"default": 3
+		},
+		"buttonWidth": {
+			"type": "string",
+			"default": "fit"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"color": {
+			"background": true,
+			"text": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

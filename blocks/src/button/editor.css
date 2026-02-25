@@ -1,0 +1,16 @@
+/**
+ * Editor Button Styles
+ */
+
+.wp-block-conversion-blocks-button {
+	padding: 1rem;
+}
+
+.conversion-blocks-button {
+	user-select: text;
+	cursor: text;
+}
+
+.conversion-blocks-button:focus {
+	outline: none;
+}

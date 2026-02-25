@@ -1,0 +1,104 @@
+/**
+ * Frontend Button Styles
+ */
+
+.conversion-blocks-button-wrapper {
+	margin: 1rem 0;
+}
+
+.conversion-blocks-button-wrapper.conversion-blocks-align-left {
+	text-align: left;
+}
+
+.conversion-blocks-button-wrapper.conversion-blocks-align-center {
+	text-align: center;
+}
+
+.conversion-blocks-button-wrapper.conversion-blocks-align-right {
+	text-align: right;
+}
+
+.conversion-blocks-button {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 600;
+	border-radius: 6px;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	border: 2px solid transparent;
+	line-height: 1.4;
+}
+
+/* Sizes */
+.conversion-blocks-button.conversion-blocks-button-small {
+	padding: 8px 20px;
+	font-size: 14px;
+}
+
+.conversion-blocks-button.conversion-blocks-button-medium {
+	padding: 12px 28px;
+	font-size: 16px;
+}
+
+.conversion-blocks-button.conversion-blocks-button-large {
+	padding: 16px 36px;
+	font-size: 18px;
+}
+
+/* Styles */
+.conversion-blocks-button.conversion-blocks-button-primary {
+	background: #3b82f6;
+	color: #fff;
+}
+
+.conversion-blocks-button.conversion-blocks-button-primary:hover {
+	background: #2563eb;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.conversion-blocks-button.conversion-blocks-button-secondary {
+	background: #64748b;
+	color: #fff;
+}
+
+.conversion-blocks-button.conversion-blocks-button-secondary:hover {
+	background: #475569;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(100, 116, 139, 0.4);
+}
+
+.conversion-blocks-button.conversion-blocks-button-outline {
+	background: transparent;
+	color: #3b82f6;
+	border-color: #3b82f6;
+}
+
+.conversion-blocks-button.conversion-blocks-button-outline:hover {
+	background: #3b82f6;
+	color: #fff;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* Active/Focus states */
+.conversion-blocks-button:active {
+	transform: translateY(0);
+}
+
+.conversion-blocks-button:focus {
+	outline: 2px solid #3b82f6;
+	outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.conversion-blocks-button.conversion-blocks-button-large {
+		padding: 14px 28px;
+		font-size: 16px;
+	}
+
+	.conversion-blocks-button-wrapper.conversion-blocks-align-right {
+		text-align: center;
+	}
+}

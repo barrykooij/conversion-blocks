@@ -1,0 +1,47 @@
+/**
+ * Editor Pricing Table Styles
+ */
+
+.wp-block-conversion-blocks-pricing-table {
+	padding: 1rem;
+	background: #f9fafb;
+	border-radius: 4px;
+}
+
+.conversion-blocks-pricing-plan {
+	position: relative;
+}
+
+.conversion-blocks-pricing-plan .conversion-blocks-remove-plan {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	z-index: 10;
+}
+
+.conversion-blocks-pricing-plan .conversion-blocks-plan-header,
+.conversion-blocks-pricing-plan .conversion-blocks-plan-features,
+.conversion-blocks-pricing-plan .conversion-blocks-plan-button {
+	margin-bottom: 1rem;
+}
+
+.conversion-blocks-pricing-plan .conversion-blocks-plan-feature-item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 8px;
+}
+
+.conversion-blocks-pricing-plan .conversion-blocks-plan-feature-item > div {
+	flex-grow: 1;
+}
+
+.conversion-blocks-pricing-plan .components-base-control {
+	margin-bottom: 0.5rem;
+}
+
+.conversion-blocks-pricing-plan .components-toggle-control {
+	margin-top: 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid #ddd;
+}

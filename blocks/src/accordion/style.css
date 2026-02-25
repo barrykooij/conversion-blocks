@@ -1,0 +1,98 @@
+/**
+ * Frontend Accordion Styles
+ */
+
+.conversion-blocks-accordion {
+	margin: 2rem 0;
+}
+
+.conversion-blocks-accordion-items {
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.conversion-blocks-accordion-item {
+	border-bottom: 1px solid #e2e8f0;
+	background: #fff;
+}
+
+.conversion-blocks-accordion-item:last-child {
+	border-bottom: none;
+}
+
+.conversion-blocks-accordion-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.25rem 1.5rem;
+	cursor: pointer;
+	user-select: none;
+	list-style: none;
+	transition: background-color 0.2s;
+}
+
+.conversion-blocks-accordion-header:hover,
+.conversion-blocks-accordion-item[open] .conversion-blocks-accordion-header {
+	background: #f9fafb;
+}
+
+.conversion-blocks-accordion-header::-webkit-details-marker {
+	display: none;
+}
+
+.conversion-blocks-accordion-question {
+	font-weight: 600;
+	font-size: 16px;
+	color: #1e293b;
+	flex-grow: 1;
+}
+
+.conversion-blocks-accordion-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	color: #64748b;
+	transition: transform 0.2s;
+	font-size: 12px;
+}
+
+.conversion-blocks-accordion-item[open] .conversion-blocks-accordion-icon {
+	transform: rotate(180deg);
+}
+
+.conversion-blocks-accordion-content {
+	padding: 1.25rem 1.5rem 1.25rem;
+	color: #475569;
+	line-height: 1.6;
+}
+
+.conversion-blocks-accordion-content p {
+	margin: 0 0 0.75rem;
+}
+
+.conversion-blocks-accordion-content p:last-child {
+	margin-bottom: 0;
+}
+
+/* Animation */
+.conversion-blocks-accordion-item details {
+	transition: all 0.2s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.conversion-blocks-accordion-header {
+		padding: 1rem;
+	}
+
+	.conversion-blocks-accordion-content {
+		padding: 1rem 1rem 1rem;
+	}
+
+	.conversion-blocks-accordion-question {
+		font-size: 15px;
+	}
+}

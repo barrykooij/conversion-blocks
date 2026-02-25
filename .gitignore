@@ -1,0 +1,11 @@
+vendor/
+node_modules/
+.DS_Store
+*.log
+.idea/
+.vscode/
+composer.lock
+package-lock.json
+build/
+blocks/*/build/
+*.zip

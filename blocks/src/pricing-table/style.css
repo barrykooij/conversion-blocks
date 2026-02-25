@@ -1,0 +1,173 @@
+/**
+ * Frontend Pricing Table Styles
+ */
+
+.conversion-blocks-pricing-table {
+	margin: 2rem 0;
+}
+
+.conversion-blocks-pricing-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 2rem;
+	margin: 0;
+}
+
+.conversion-blocks-pricing-plan {
+	background: #fff;
+	border: 2px solid #e2e8f0;
+	border-radius: 8px;
+	padding: 2rem;
+	position: relative;
+	transition: transform 0.2s, box-shadow 0.2s;
+	display: flex;
+	flex-direction: column;
+}
+
+.conversion-blocks-pricing-plan:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.conversion-blocks-pricing-plan.conversion-blocks-is-highlighted {
+	border-color: #3b82f6;
+	box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+	transform: scale(1.05);
+}
+
+.conversion-blocks-pricing-plan.conversion-blocks-is-highlighted:hover {
+	transform: scale(1.05) translateY(-4px);
+}
+
+.conversion-blocks-plan-badge {
+	position: absolute;
+	top: -12px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #3b82f6;
+	color: #fff;
+	padding: 4px 16px;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.conversion-blocks-plan-header {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.conversion-blocks-plan-name {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 0 1rem;
+	color: #1e293b;
+}
+
+.conversion-blocks-plan-price {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	gap: 4px;
+}
+
+.conversion-blocks-price-amount {
+	font-size: 48px;
+	font-weight: 700;
+	color: #1e293b;
+	line-height: 1;
+}
+
+.conversion-blocks-price-period {
+	font-size: 16px;
+	color: #64748b;
+}
+
+.conversion-blocks-plan-features {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 2rem;
+	flex-grow: 1;
+}
+
+.conversion-blocks-plan-features li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 12px 0;
+	border-bottom: 1px solid #f1f5f9;
+	color: #475569;
+	font-size: 15px;
+}
+
+.conversion-blocks-plan-features li:last-child {
+	border-bottom: none;
+}
+
+.conversion-blocks-pricing-table .conversion-blocks-plan-check-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	background: #10b981;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 12px;
+	flex-shrink: 0;
+}
+
+.conversion-blocks-plan-button {
+	margin-top: auto;
+	text-align: center;
+}
+
+.conversion-blocks-plan-button .conversion-blocks-plan-btn {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 32px;
+	background: #f1f5f9;
+	color: #1e293b;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: 600;
+	font-size: 16px;
+	transition: all 0.2s;
+	border: 2px solid transparent;
+}
+
+.conversion-blocks-plan-button .conversion-blocks-plan-btn:hover {
+	background: #e2e8f0;
+	transform: translateY(-1px);
+}
+
+.conversion-blocks-plan-button .conversion-blocks-plan-btn.conversion-blocks-is-highlighted {
+	background: #3b82f6;
+	color: #fff;
+}
+
+.conversion-blocks-plan-button .conversion-blocks-plan-btn.conversion-blocks-is-highlighted:hover {
+	background: #2563eb;
+}
+
+/* Button width variants */
+.conversion-blocks-button-width-full .conversion-blocks-plan-button .conversion-blocks-plan-btn {
+	display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.conversion-blocks-pricing-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.conversion-blocks-pricing-plan.conversion-blocks-is-highlighted {
+		transform: none;
+	}
+
+	.conversion-blocks-pricing-plan.conversion-blocks-is-highlighted:hover {
+		transform: translateY(-4px);
+	}
+}

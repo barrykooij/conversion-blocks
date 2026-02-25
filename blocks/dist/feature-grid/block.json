@@ -1,0 +1,94 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "conversion-blocks/feature-grid",
+	"version": "1.0.0",
+	"title": "Feature Grid",
+	"category": "conversion-blocks",
+	"icon": "grid-view",
+	"description": "Showcase features in a beautiful responsive grid with icons",
+	"keywords": ["features", "grid", "services", "benefits", "icons"],
+	"textdomain": "conversion-blocks",
+	"attributes": {
+		"features": {
+			"type": "array",
+			"default": [
+				{
+					"icon": "bolt",
+					"iconStyle": "outline",
+					"imageUrl": "",
+					"imageId": 0,
+					"title": "Lightning Fast",
+					"description": "Optimized for speed so your site loads in milliseconds."
+				},
+				{
+					"icon": "shield-check",
+					"iconStyle": "outline",
+					"imageUrl": "",
+					"imageId": 0,
+					"title": "Secure by Default",
+					"description": "Enterprise-grade security built into every layer."
+				},
+				{
+					"icon": "device-phone-mobile",
+					"iconStyle": "outline",
+					"imageUrl": "",
+					"imageId": 0,
+					"title": "Fully Responsive",
+					"description": "Looks perfect on every device, from mobile to desktop."
+				},
+				{
+					"icon": "paint-brush",
+					"iconStyle": "outline",
+					"imageUrl": "",
+					"imageId": 0,
+					"title": "Easy to Customize",
+					"description": "Tailor every detail to match your brand effortlessly."
+				},
+				{
+					"icon": "puzzle-piece",
+					"iconStyle": "outline",
+					"imageUrl": "",
+					"imageId": 0,
+					"title": "Seamless Integrations",
+					"description": "Connect with the tools you already use and love."
+				},
+				{
+					"icon": "chat-bubble-left-right",
+					"iconStyle": "outline",
+					"imageUrl": "",
+					"imageId": 0,
+					"title": "24/7 Support",
+					"description": "Our team is always here to help when you need it."
+				}
+			]
+		},
+		"columns": {
+			"type": "number",
+			"default": 3
+		},
+		"iconSize": {
+			"type": "string",
+			"default": "large"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"color": {
+			"background": true,
+			"text": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

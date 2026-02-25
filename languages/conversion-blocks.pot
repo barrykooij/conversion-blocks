@@ -1,0 +1,467 @@
+# Copyright (C) 2026 LV2
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Conversion Blocks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/conversion-blocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-25T16:26:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: conversion-blocks\n"
+
+#. Plugin Name of the plugin
+#: conversion-blocks.php
+msgid "Conversion Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: conversion-blocks.php
+msgid "https://wordpress.org/plugins/conversion-blocks/"
+msgstr ""
+
+#. Description of the plugin
+#: conversion-blocks.php
+msgid "Beautiful Gutenberg blocks that convert visitors into customers. Premium blocks for pricing tables, accordions, and more."
+msgstr ""
+
+#. Author of the plugin
+#: conversion-blocks.php
+msgid "LV2"
+msgstr ""
+
+#. Author URI of the plugin
+#: conversion-blocks.php
+msgid "https://lv2.nl"
+msgstr ""
+
+#: src/Blocks/Controller.php:71
+msgid "ConversionBlocks"
+msgstr ""
+
+#: blocks/dist/accordion/index.js:1
+#: blocks/src/accordion/edit.js:53
+msgid "Conversion Blocks FAQ Settings"
+msgstr ""
+
+#: blocks/dist/accordion/index.js:1
+#: blocks/src/accordion/edit.js:56
+msgid "Open first item by default"
+msgstr ""
+
+#: blocks/dist/accordion/index.js:1
+#: blocks/src/accordion/edit.js:62
+msgid "Close other items when one is opened"
+msgstr ""
+
+#: blocks/dist/accordion/index.js:1
+#: blocks/src/accordion/edit.js:70
+msgid "Add FAQ Item"
+msgstr ""
+
+#: blocks/dist/accordion/index.js:1
+#: blocks/src/accordion/edit.js:84
+msgid "Question..."
+msgstr ""
+
+#: blocks/dist/accordion/index.js:1
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/accordion/edit.js:93
+#: blocks/src/feature-grid/edit.js:290
+#: blocks/src/pricing-table/edit.js:111
+msgid "Remove"
+msgstr ""
+
+#: blocks/dist/accordion/index.js:1
+#: blocks/src/accordion/edit.js:102
+msgid "Answer..."
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:43
+msgid "Link"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:50
+msgid " Conversion Blocks Button"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:54
+msgid "Style"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:57
+msgid "Primary"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:58
+msgid "Secondary"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/button/edit.js:59
+#: blocks/src/feature-grid/edit.js:76
+msgid "Outline"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:66
+msgid "Size"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/button/edit.js:69
+#: blocks/src/feature-grid/edit.js:237
+msgid "Small"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/button/edit.js:70
+#: blocks/src/feature-grid/edit.js:241
+msgid "Medium"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/button/edit.js:71
+#: blocks/src/feature-grid/edit.js:245
+msgid "Large"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:76
+msgid "Link Settings"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:78
+msgid "URL"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:84
+msgid "Open in new tab"
+msgstr ""
+
+#: blocks/dist/button/index.js:1
+#: blocks/src/button/edit.js:96
+msgid "Button text..."
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:66
+msgid "Search icons…"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:83
+msgid "Solid"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:90
+msgid "Image"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:99
+msgid "No icons found."
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:142
+msgid "Remove Image"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:151
+#: blocks/src/feature-grid/edit.js:166
+msgid "Choose Image"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:154
+msgid "Select"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:165
+msgid "Replace Image"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:219
+msgid "Conversion Blocks Feature Grid"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:222
+msgid "Columns"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:233
+msgid "Icon Size"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:256
+msgid "Text Alignment"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:260
+msgid "Left"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:264
+msgid "Center"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:273
+msgid "Add Feature Block"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:352
+msgid "Feature Title"
+msgstr ""
+
+#: blocks/dist/feature-grid/index.js:1
+#: blocks/src/feature-grid/edit.js:369
+msgid "Feature description..."
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:74
+msgid "Conversion Blocks Pricing Table"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:75
+msgid "Edit your pricing plans in the block editor."
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:79
+msgid "Button Width"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:82
+msgid "Fit to content"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:83
+msgid "Full width"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:91
+msgid "Add Plan"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:120
+msgid "Plan Name"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:129
+msgid "$0"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:136
+msgid "/month"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:149
+msgid "Feature"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:165
+msgid "Add Feature"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:173
+msgid "Button Text"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:180
+msgid "Button URL"
+msgstr ""
+
+#: blocks/dist/pricing-table/index.js:1
+#: blocks/src/pricing-table/edit.js:189
+msgid "Highlight this plan"
+msgstr ""
+
+#: blocks/dist/accordion/block.json
+#: blocks/src/accordion/block.json
+msgctxt "block title"
+msgid "Accordion / FAQ"
+msgstr ""
+
+#: blocks/dist/accordion/block.json
+#: blocks/src/accordion/block.json
+msgctxt "block description"
+msgid "Organize content in expandable accordion sections"
+msgstr ""
+
+#: blocks/dist/accordion/block.json
+#: blocks/src/accordion/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr ""
+
+#: blocks/dist/accordion/block.json
+#: blocks/src/accordion/block.json
+msgctxt "block keyword"
+msgid "faq"
+msgstr ""
+
+#: blocks/dist/accordion/block.json
+#: blocks/src/accordion/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr ""
+
+#: blocks/dist/accordion/block.json
+#: blocks/src/accordion/block.json
+msgctxt "block keyword"
+msgid "collapsible"
+msgstr ""
+
+#: blocks/dist/button/block.json
+#: blocks/src/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr ""
+
+#: blocks/dist/button/block.json
+#: blocks/src/button/block.json
+msgctxt "block description"
+msgid "Call-to-action button with hover effects"
+msgstr ""
+
+#: blocks/dist/button/block.json
+#: blocks/src/button/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr ""
+
+#: blocks/dist/button/block.json
+#: blocks/src/button/block.json
+msgctxt "block keyword"
+msgid "cta"
+msgstr ""
+
+#: blocks/dist/button/block.json
+#: blocks/src/button/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr ""
+
+#: blocks/dist/button/block.json
+#: blocks/src/button/block.json
+msgctxt "block keyword"
+msgid "call to action"
+msgstr ""
+
+#: blocks/dist/feature-grid/block.json
+#: blocks/src/feature-grid/block.json
+msgctxt "block title"
+msgid "Feature Grid"
+msgstr ""
+
+#: blocks/dist/feature-grid/block.json
+#: blocks/src/feature-grid/block.json
+msgctxt "block description"
+msgid "Showcase features in a beautiful responsive grid with icons"
+msgstr ""
+
+#: blocks/dist/feature-grid/block.json
+#: blocks/src/feature-grid/block.json
+msgctxt "block keyword"
+msgid "features"
+msgstr ""
+
+#: blocks/dist/feature-grid/block.json
+#: blocks/src/feature-grid/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr ""
+
+#: blocks/dist/feature-grid/block.json
+#: blocks/src/feature-grid/block.json
+msgctxt "block keyword"
+msgid "services"
+msgstr ""
+
+#: blocks/dist/feature-grid/block.json
+#: blocks/src/feature-grid/block.json
+msgctxt "block keyword"
+msgid "benefits"
+msgstr ""
+
+#: blocks/dist/feature-grid/block.json
+#: blocks/src/feature-grid/block.json
+msgctxt "block keyword"
+msgid "icons"
+msgstr ""
+
+#: blocks/dist/pricing-table/block.json
+#: blocks/src/pricing-table/block.json
+msgctxt "block title"
+msgid "Pricing Table"
+msgstr ""
+
+#: blocks/dist/pricing-table/block.json
+#: blocks/src/pricing-table/block.json
+msgctxt "block description"
+msgid "Beautiful pricing table with multiple pricing plans"
+msgstr ""
+
+#: blocks/dist/pricing-table/block.json
+#: blocks/src/pricing-table/block.json
+msgctxt "block keyword"
+msgid "pricing"
+msgstr ""
+
+#: blocks/dist/pricing-table/block.json
+#: blocks/src/pricing-table/block.json
+msgctxt "block keyword"
+msgid "table"
+msgstr ""
+
+#: blocks/dist/pricing-table/block.json
+#: blocks/src/pricing-table/block.json
+msgctxt "block keyword"
+msgid "plans"
+msgstr ""
+
+#: blocks/dist/pricing-table/block.json
+#: blocks/src/pricing-table/block.json
+msgctxt "block keyword"
+msgid "price"
+msgstr ""

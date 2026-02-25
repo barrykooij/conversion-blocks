@@ -1,0 +1,13 @@
+/**
+ * ConversionBlocks Editor Styles
+ * 
+ * @package ConversionBlocks
+ */
+
+/* Editor styles will go here when blocks are built */
+.conversion-blocks-editor-notice {
+	background: #f0f6fc;
+	border-left: 4px solid #2271b1;
+	padding: 12px;
+	margin: 10px 0;
+}
