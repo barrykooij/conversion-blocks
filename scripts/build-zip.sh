@@ -12,12 +12,8 @@ PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
 cd "$PROJECT_DIR"
 
-if [ ! -d "node_modules" ]; then
-  echo "==> Installing Node dependencies…"
-  npm install
-else
-  echo "==> node_modules already exists, skipping npm install…"
-fi
+echo "==> Installing Node dependencies…"
+npm install
 
 echo "==> Building assets…"
 npm run build
