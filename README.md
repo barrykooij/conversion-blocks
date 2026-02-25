@@ -37,17 +37,27 @@ npm run start
 
 ```
 conversion-blocks/
-├── blocks/               # Block source files
-│   ├── pricing-table/
-│   ├── accordion/
-│   └── button/
-├── src/                 # PHP source
+├── blocks/
+│   ├── src/                    # Block source files
+│   │   ├── accordion/
+│   │   │   ├── block.json
+│   │   │   ├── index.js
+│   │   │   ├── edit.js
+│   │   │   ├── save.js
+│   │   │   ├── view.js
+│   │   │   ├── style.css
+│   │   │   └── editor.css
+│   │   ├── button/
+│   │   ├── feature-grid/
+│   │   └── pricing-table/
+│   └── dist/                   # Compiled block output
+├── src/                        # PHP source
 │   ├── Main.php
 │   ├── Blocks/
 │   ├── Admin/
 │   └── Assets/
-├── assets/              # Compiled assets
-└── conversion-blocks.php    # Main plugin file
+├── assets/                     # Static assets
+└── conversion-blocks.php       # Main plugin file
 ```
 
 ### Install in WordPress
