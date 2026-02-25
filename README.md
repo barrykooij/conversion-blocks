@@ -78,8 +78,6 @@ wp plugin check conversion-blocks
 
 ## Architecture
 
-Based on the Scanfully architecture:
-
 - **Singleton Pattern** - Main class with single instance
 - **Namespaced** - All classes under `ConversionBlocks\` namespace
 - **PSR-4 Autoloading** - Composer autoloader
