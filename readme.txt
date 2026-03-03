@@ -50,7 +50,7 @@ Yes! Conversion Blocks works with ALL WordPress themes that support Gutenberg. U
 
 = Is the free version really free forever? =
 
-Absolutely! The free version includes 3 core blocks with no time limits or hidden fees.
+Absolutely! The free version includes 4 core blocks with no time limits or hidden fees.
 
 == Screenshots ==
 
